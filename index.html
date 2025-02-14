@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Eats</title>
+    <link rel="stylesheet" href="styles.css">
+	<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\tkira\OneDrive\Pictures\Screenshots\Screenshot 2024-12-30 181940.png" alt="University Eats Logo">
+            <h1>VU Eats</h1>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#canteens">Canteens</a>
+            <a href="#team">Our Team</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="profile-btn">
+            <img src="profile-icon.png" alt="Profile">
+        </button>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h2>Welcome To <span class="highlight">VU Eats</span></h2>
+                <p>Your one-stop platform for discovering the best food on campus at Vignan's University, Guntur.</p>
+            </div>
+            <div class="hero-image">
+                <img src="C:\Users\tkira\OneDrive\Pictures\Screenshots\Screenshot 2024-12-30 182646.png" alt="Delicious Food">
+            </div>
+        </section>
+		<section id="about" class="about">
+    <div class="about-content">
+        <h2>About Us</h2>
+        <p>Welcome to <strong>VU Eats</strong>, your ultimate guide to exploring the best canteens and eateries on Vignan University campus. Our mission is to help students, staff, and visitors discover a wide variety of food options, ensuring a delightful dining experience every time.</p>
+        
+        <h3>How Is It Useful?</h3>
+        <p>VU Eats not only saves time by providing accurate and up-to-date information about food options but also fosters a community of food enthusiasts. Whether you’re craving snacks, full meals, or beverages, this platform has got you covered!</p>
+    </div>
+    <div class="about-image">
+        <img src="C:\Users\tkira\OneDrive\Pictures\Screenshots\Screenshot 2024-12-30 193428.png" alt="About Us Image">
+    </div>
+</section>
+<section id="canteens" style="padding: 50px; background-color: #f9f9f9;">
+  <h2 style="text-align: center; margin-bottom: 30px;">Our Canteens</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <!-- Canteen Cards -->
+    <div class="canteen-card" onclick="redirectToPage('mhp')">
+      <h3>MHP</h3>
+      <button>View</button>
+      <button>Book</button>
+    </div>
+    <div class="canteen-card" onclick="redirectToPage('cafe')">
+      <h3>Cafe</h3>
+      <button>View</button>
+      <button>Book</button>
+    </div>
+    <div class="canteen-card" onclick="redirectToPage('a-block-second-floor')">
+      <h3>A Block 2nd Floor</h3>
+      <button>View</button>
+      <button>Book</button>
+    </div>
+    <div class="canteen-card" onclick="redirectToPage('a-block-third-floor')">
+      <h3>A Block 3rd Floor</h3>
+      <button>View</button>
+      <button>Book</button>
+    </div>
+    <div class="canteen-card" onclick="redirectToPage('u-block')">
+      <h3>U Block</h3>
+      <button>View</button>
+      <button>Book</button>
+    </div>
+    <div class="canteen-card" onclick="redirectToPage('h-block-ground')">
+      <h3>H Block Ground Floor</h3>
+      <button>View</button>
+      <button>Book</button>
+    </div>
+    <div class="canteen-card" onclick="redirectToPage('h-block-third')">
+      <h3>H Block 3rd Floor</h3>
+      <button>View</button>
+      <button>Book</button>
+    </div>
+    <div class="canteen-card" onclick="redirectToPage('n-block')">
+      <h3>N Block</h3>
+      <button>View</button>
+      <button>Book</button>
+    </div>
+  </div>
+</section>
+<section id="team">
+        <h2>Our Team</h2>
+        <div class="team-container">
+          <!-- Profile 1 -->
+          <div class="team-member">
+            <img
+              src="C:\Users\tkira\Downloads\bfaf227a-9cc3-40d4-973e-8a139efd1d35.jpg"
+              alt="Team Member 1"
+            />
+            <h3>THALLURI KIRANMAI</h3>
+            <h4>221FA07006</h4>
+            <p>Web Developer</p>
+            <p>
+              Currently, I'm pursuing my graduation at Vignan University in the
+              Department of IT&CA.
+            </p>
+          </div>
+
+          <!-- Profile 2 -->
+          <div class="team-member">
+            <img
+              src="C:\Users\tkira\Downloads\8fdbee53-100b-4144-a814-63d9f813487c.jpg"
+              alt="Team Member 2"
+            />
+            <h3>GODAVARTHI NAGA PRAVALLIKA</h3>
+            <h4>221FA07027</h4>
+            <p>Web Developer</p>
+            <p>
+              Currently, I'm pursuing my graduation at Vignan University in the
+              Department of IT&CA.
+            </p>
+          </div>
+        </div>
+      </section>
+
+<section id="contact" class="contact">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Feel free to reach out with your questions, feedback, or suggestions.</p>
+            <ul class="contact-details">
+                <li><strong>Email:</strong> support@vucanteens.com</li>
+                <li><strong>Phone:</strong> +91 9876543210</li>
+                <li><strong>Address:</strong> Vignan University, Guntur, Andhra Pradesh, India</li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.facebook.com" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 VU Eats. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
